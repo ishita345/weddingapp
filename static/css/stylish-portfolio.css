@@ -214,6 +214,30 @@ hr.small {
     margin: 10px;
 }
 
+/* RSVP */
+.rsvp {
+    background-color: #F59534;
+}
+
+.rsvp-form {
+    background-color: #FFF;
+    margin-right: 5%;
+    padding: 20px 20px 20px 20px;
+}
+
+#rsvp div.input {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+#rsvp .rsvp-title {
+    float: left;
+}
+
+.rsvp-class {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 /* Map */
 
 .map {
