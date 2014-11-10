@@ -116,6 +116,10 @@ hr.small {
     background-color: #606860;
 }
 
+.countdown-bg {
+    background-image: url(../img/bg.jpg) no-repeat center center;
+}
+
 .box {
     background: #ffffff;
     width: 16%;
@@ -149,7 +153,7 @@ hr.small {
 
 .events {
     padding: 50px 0;
-    background-color: #F59534;
+    background-color: #FFF;
 }
 
 .event-item {
@@ -204,19 +208,16 @@ hr.small {
     opacity: 0.8;
 }
 
-/* Call to Action */
+/* Insert */
 
-.call-to-action {
+.insert {
     padding: 50px 0;
 }
 
-.call-to-action .btn {
-    margin: 10px;
-}
 
 /* RSVP */
 .rsvp {
-    background-color: #F59534;
+    background-color: #606860;
 }
 
 .rsvp-form {
