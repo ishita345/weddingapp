@@ -117,7 +117,7 @@ hr.small {
 }
 
 .countdown-bg {
-    background-image: url(../img/bg.jpg) no-repeat center center;
+    background: url(../img/bg.jpg) no-repeat center center;
 }
 
 .box {
@@ -222,7 +222,6 @@ hr.small {
 
 .rsvp-form {
     background-color: #FFF;
-    margin-right: 5%;
     padding: 20px 20px 20px 20px;
 }
 
