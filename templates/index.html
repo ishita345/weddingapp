@@ -16,6 +16,7 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../static/css/jquery.countdown.css" rel="stylesheet">
     <link href="../static/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
@@ -98,53 +99,7 @@
             </div>
         </div>
         <div class="fa fa-heart"></div>
-        <div class="row countdown-body">
-            <div class="timer col-lg-10 col-lg-offset-1">
-                <div class="box col-md-1 col-sm-4">
-                    <div class="box-content">
-                        <div class="table">
-                            <div class="table-cell text-center box-numbers">
-                                2
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="box col-md-1 col-sm-4">
-                    <div class="box-content">
-                        <div class="table">
-                            <div class="table-cell text-center box-numbers">
-                            2
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="box col-md-1 col-sm-4">
-                    <div class="box-content">
-                        <div class="table">
-                            <div class="table-cell text-center box-numbers">
-                            2
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="box col-md-1 col-sm-4">
-                    <div class="box-content">
-                        <div class="table">
-                            <div class="table-cell text-center box-numbers">
-                            2
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="box col-md-1 col-sm-4">
-                    <div class="box-content">
-                        <div class="table">
-                            <div class="table-cell text-center box-numbers">
-                            2
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div id="countdown">
         </div>
     </div>
     </div>
@@ -374,8 +329,8 @@
 
 <!-- Bootstrap Core JavaScript -->
 <script src="static/js/bootstrap.min.js"></script>
-<script src="static/js/countdown.js"></script>
-
+<script src="static/js/jquery.plugin.js"></script>
+<script src="static/js/jquery.countdown.js"></script>
 <script>
     var newYear = new Date("2015", "01", "22");
     $("#countdown").countdown({until: newYear, format: 'odhms'});
