@@ -107,6 +107,7 @@ hr.small {
     border: none;
     box-shadow: none;
     margin-bottom: 0px;
+    padding: 20px;
 }
 
 /* Countdown */
@@ -212,6 +213,7 @@ hr.small {
 
 .insert {
     padding: 50px 0;
+    background-color: #FFF;
 }
 
 
