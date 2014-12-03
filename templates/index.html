@@ -18,6 +18,7 @@
     <link href="../static/css/bootstrap.min.css" rel="stylesheet">
     <link href="../static/css/jquery.countdown.css" rel="stylesheet">
     <link href="../static/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../static/css/image-gallery.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="../static/css/stylish-portfolio.css" rel="stylesheet">
@@ -51,19 +52,76 @@
 <section id="about" class="about">
     <div class="container">
         <div class="row">
-            <div class="col-lg-10 col-lg-offset-1">
+            <div class="col-lg-12">
                 <div class="section-heading">
                     <h2>THE HAPPY COUPLE</h2>
+                </div>
+                <div class="col-md-8">
+                    <blockquote>
+                        <div class="about-intro">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </blockquote>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="couple-tag">
+                        <h4 class="couple-name">Pratik Shah</h4>
+
+                        <div class="thumbnail">
+                            <img class="img-circle img-responsive" src="../static/img/pratik.jpg">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-md-4">
+                    <div class="couple-tag">
+                        <h2 class="couple-name">Ishita Shah</h2>
+
+                        <div class="thumbnail">
+                            <img class="img-circle img-responsive" src="../static/img/ishita.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+
+
+                    <blockquote>
+                        <div class="about-intro">
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                         </div>
+                    </blockquote>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<!-- OUR STORY -->
+
+<section id="about" class="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+                <div class="section-heading">
+                    <h2>OUR STORY</h2>
                 </div>
                 <div class="col-md-5 col-sm-8 col-sm-offset=2">
                     <div class="col-md-4 col-sm-3">
                         <div class="thumbnail">
                             <img class="img-circle img-responsive" src="../static/img/pratik.jpg">
                         </div>
+                        <div class="about-title">
+                            <h4>Pratik Shah</h4>
+                        </div>
                     </div>
                     <div class="col-md-8 col-sm-4">
                         <div class="about-title">
-                            <h4>Pratik Shah</h4>
+                            <h4>He Says</h4>
                         </div>
                         <div class="about-intro">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -71,19 +129,23 @@
                     </div>
                 </div>
                 <div class="col-md-5 col-md-offset-2 col-sm-8 col-sm-offset=2">
-                    <div class="col-md-4 col-sm-3">
-                        <div class="thumbnail">
-                            <img class="img-circle img-responsive" src="../static/img/ishita.jpg">
-                        </div>
-                    </div>
                     <div class="col-md-8 col-sm-4">
                         <div class="about-title">
-                            <h4>Ishita Shah</h4>
+                            <h4>She says</h4>
                         </div>
                         <div class="about-intro">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         </div>
                     </div>
+                    <div class="col-md-4 col-sm-3">
+                        <div class="thumbnail">
+                            <img class="img-circle img-responsive" src="../static/img/ishita.jpg">
+                        </div>
+                        <div class="about-title">
+                            <h4>Ishita Shah</h4>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -94,7 +156,7 @@
 <section class="countdown countdown-bg">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 text-center">
+            <div class="col-lg-12 text-center section-heading">
                 <h2 style="color: white">January 22nd, 2015, Mumbai, India</h2>
             </div>
         </div>
@@ -113,7 +175,7 @@
         <div class="row text-center">
             <div class="col-lg-10 col-lg-offset-1">
                 <div class="section-heading">
-                    <h2>THE EVENTS</h2>
+                    <h2> THE EVENTS</h2>
                 </div>
                 <div class="row">
                     <div class="col-md-3 col-sm-8 col-md-offset-1 col-sm-offset=2">
@@ -145,7 +207,9 @@
                             <h4>
                                 <strong>Reception</strong>
                             </h4>
+
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
                             <div class="event-time">
 				                    <span class="date">
                                         <i class="fa fa-calendar"></i>
@@ -165,76 +229,98 @@
 </section>
 
 <!-- Gallery -->
-<!--
-<section id="gallery" class="gallery">
+
+<section id="gallery-section" class="">
     <div class="container full-width">
-        <div class="row remove-right-margin">
-            <div class="col-lg-12 text-center remove-left-padding remove-right-padding">
-                <div class="row remove-right-margin">
-                    <div class="col-md-3 col-sm-2 gallery-item-container">
-                        <div class="gallery-item">
-                            <a href="#">
-                                <img class="img-gallery img-responsive" src="../static/img/gallery-1.jpg">
-                            </a>
+        <div class="section-heading">
+            <h2>IMAGE GALLERY</h2>
+        </div>
+        <div class="container">
+                    <div id="gallery">
+                          <div class="thumbnail image  col-xs-6 col-sm-4"
+                                 ><a
+                                    href="../static/img/background.JPG" id="image-gallery-button"
+                                    data-gallery>
+                              <img class="product-img" src="../static/img/background.JPG">
+                          </a></div>
+                         <div class="thumbnail  image col-xs-6 col-sm-4"
+                                 ><a
+                                    href="../static/img/background.JPG" id="image-gallery-button"
+                                    data-gallery>
+                              <img class="img-gallery img-responsive" src="../static/img/background.JPG">
+                          </a></div>
+                         <div class="thumbnail image col-xs-6 col-sm-4"
+                                 ><a
+                                    href="../static/img/background.JPG" id="image-gallery-button"
+                                    data-gallery>
+                              <img class="img-gallery img-responsive" src="../static/img/background.JPG">
+                          </a></div>
+                         <div class="thumbnail image  col-xs-6 col-sm-4"
+                                 ><a
+                                    href="../static/img/background.JPG" id="image-gallery-button"
+                                    data-gallery>
+                              <img class="img-gallery img-responsive" src="../static/img/background.JPG">
+                          </a></div>
+                         <div class="thumbnail image col-xs-6 col-sm-4"
+                                 ><a
+                                    href="../static/img/background.JPG" id="image-gallery-button"
+                                    data-gallery>
+                              <img class="img-gallery img-responsive" src="../static/img/background.JPG">
+                          </a></div>
+                         <div class="thumbnail image col-xs-6 col-sm-4"
+                                 ><a
+                                    href="../static/img/background.JPG" id="image-gallery-button"
+                                    data-gallery>
+                              <img class="img-gallery img-responsive" src="../static/img/background.JPG">
+                          </a></div>
+                        <div class="col-xs-12" align="center" style="margin-top: 10px">
+                            <button id="view-gallery-button"
+                                    class="btn btn-warning">View
+                                Full Gallery
+                            </button>
                         </div>
+
                     </div>
-                    <div class="col-md-3 col-sm-2 gallery-item-container">
-                        <div class="gallery-item">
-                            <a href="#">
-                                <img class="img-gallery img-responsive" src="../static/img/gallery-2.jpg">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-2 gallery-item-container">
-                        <div class="gallery-item">
-                            <a href="#">
-                                <img class="img-gallery img-responsive" src="../static/img/gallery-3.jpg">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-2 gallery-item-container">
-                        <div class="gallery-item">
-                            <a href="#">
-                                <img class="img-gallery img-responsive" src="../static/img/gallery-4.jpg">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row remove-right-margin">
-                    <div class="col-md-3 col-sm-2 gallery-item-container">
-                        <div class="gallery-item">
-                            <a href="#">
-                                <img class="img-gallery img-responsive" src="../static/img/gallery-5.jpg">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-2 gallery-item-container">
-                        <div class="gallery-item">
-                            <a href="#">
-                                <img class="img-gallery img-responsive" src="../static/img/gallery-6.jpg">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-2 gallery-item-container">
-                        <div class="gallery-item">
-                            <a href="#">
-                                <img class="img-gallery img-responsive" src="../static/img/gallery-7.jpg">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-2 gallery-item-container">
-                        <div class="gallery-item">
-                            <a href="#">
-                                <img class="img-gallery img-responsive" src="../static/img/gallery-8.jpg">
-                            </a>
+        </div>
+
+
+        <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+                <!-- The container for the modal slides -->
+                <div class="slides"></div>
+                <!-- Controls for the borderless lightbox -->
+                <h3 class="title"></h3>
+                <a class="prev">‹</a>
+                <a class="next">›</a>
+                <a class="close">×</a>
+                <a class="play-pause"></a>
+                <ol class="indicator"></ol>
+                <!-- The modal dialog, which will be used to wrap the lightbox content -->
+                <div class="modal fade">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" aria-hidden="true">
+                                    &times;
+
+                                </button>
+                                <h4 class="modal-title"></h4>
+                            </div>
+                            <div class="modal-body next"></div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default pull-left prev">
+                                    <i class="glyphicon glyphicon-chevron-left"></i>
+                                    Previous
+                                </button>
+                                <button type="button" class="btn btn-primary next">
+                                    Next <i class="glyphicon glyphicon-chevron-right"></i>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     </div>
 </section>
--->
 
 
 <!-- Insert -->
@@ -255,7 +341,7 @@
         <div class="row">
             <div class="rsvp-class col-lg-12">
                 <div class="rsvp-form col-md-5 col-sm-6 col-md-offset-1">
-                    <form role="form">
+                    <form role="form" action="/rsvp" method="post">
                         <div class="form-group">
                             <input type="text" class="form-control" id="form-name" placeholder="Full Name">
                         </div>
@@ -331,8 +417,10 @@
 <script src="static/js/bootstrap.min.js"></script>
 <script src="static/js/jquery.plugin.js"></script>
 <script src="static/js/jquery.countdown.js"></script>
+<script src="static/js/image-gallery.js"></script>
+
 <script>
-    var newYear = new Date("2015", "01", "22");
+    var newYear = new Date("2015", "00", "22");
     $("#countdown").countdown({until: newYear, format: 'odhms'});
 </script>
 
@@ -355,6 +443,14 @@
         });
     });
 </script>
+<script>document.getElementById('view-gallery-button').onclick = function (event) {
+                    event = event || window.event;
+                    var target = event.target.parentNode.parentNode,
+                            link = target.src ? target.parentNode : target,
+                            options = {index: link, event: event},
+                            links = link.getElementsByTagName('a');
+                    blueimp.Gallery(links, options);
+                };</script>
 
 </body>
 
