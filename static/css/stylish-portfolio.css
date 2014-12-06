@@ -125,7 +125,7 @@ hr.small {
 }
 
 .countdown-bg {
-    background: url(../img/countdown-bg.jpg) no-repeat fixed center center;
+    background: url(../img/rsvp-bg.jpeg) no-repeat fixed center center;
 }
 
 .box {
@@ -161,7 +161,6 @@ hr.small {
 
 .events {
     padding: 50px 0;
-    background-color: #606860;
 }
 
 .event-item {
@@ -172,11 +171,13 @@ hr.small {
 
 .gallery {
     padding: 0;
+    background-color: #606860;
 }
 
 .gallery-item {
     float:left;
     position: relative;
+    height: 50%;
 }
 
 .gallery-item-container {
@@ -202,9 +203,6 @@ hr.small {
     padding-right: 0;
 }
 
-.gallery-item {
-    height: 50%;
-}
 
 .img-gallery {
     margin: 0 auto;
@@ -220,13 +218,18 @@ hr.small {
 
 .insert {
     padding: 50px 0;
-    background-color: #FFF;
+    height: 75%;
+    background: url(../img/insert-bg.jpg) no-repeat fixed center center;
 }
 
 
 /* RSVP */
 .rsvp {
     background-color: #606860;
+}
+
+.rsvp-bg {
+    background: url(../img/rsvp-bg.jpeg) no-repeat fixed center center;
 }
 
 .rsvp-form {
@@ -252,6 +255,7 @@ hr.small {
 
 .map {
     height: 500px;
+    padding: 50px 50px 50px 50px;
 }
 
 @media(max-width:768px) {
@@ -263,7 +267,7 @@ hr.small {
 /* Footer */
 
 footer {
-    padding: 100px 0;
+    padding: 0 0;
 }
 
 
