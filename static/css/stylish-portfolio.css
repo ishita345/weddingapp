@@ -101,6 +101,7 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    text-align: justify;
 }
 
 .thumbnail {
@@ -245,11 +246,14 @@ hr.small {
 #rsvp .rsvp-title {
     float: left;
     padding: 20px 20px 20px 20px;
+    text-align: justify;
 }
 
 .rsvp-class {
     margin-top: 5%;
     margin-bottom: 5%;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 /* Map */
 
