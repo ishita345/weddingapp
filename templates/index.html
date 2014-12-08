@@ -399,7 +399,7 @@
 
     document.getElementById('rsvp-button').onclick = function (event) {
             $.ajax({
-            url: '/rsvp',
+            url: '/rsvp/',
             data: $('rsvp-form').serialize(),
             type: 'POST',
             success: function(response) {
