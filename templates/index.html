@@ -311,8 +311,8 @@
                                 <option value="both">Both</option>
                             </select>
                         </div>
-                        <a href="#" class="btn btn-default btn-block btn-success"
-                    data-toggle="modal" data-target="#basicModal">I'M ATTENDING!</a>
+                        <div id="rsvp-button" class="btn btn-default btn-block btn-success"
+                    data-toggle="modal" data-target="#basicModal">I'M ATTENDING!</div>
                     <!--    <button data-toggle="modal" data-target="#basicModal" class="btn btn-default btn-block btn-danger">I'M ATTENDING!</button> -->
                     </form>
                 </div>
@@ -388,28 +388,19 @@
 <script>
     // Scrolls to the selected menu item on the page
     $(function () {
-        $('a[href*=#]:not([href=#])').click(function () {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
     document.getElementById('view-gallery-button').onclick = function (event) {
-                    event = event || window.event;
-                    var target = event.target.parentNode.parentNode,
-                            link = target.src ? target.parentNode : target,
-                            options = {index: link, event: event},
-                            links = link.getElementsByTagName('a');
-                    blueimp.Gallery(links, options);
-                };
+            event = event || window.event;
+            var target = event.target.parentNode.parentNode,
+            link = target.src ? target.parentNode : target,
+            options = {index: link, event: event},
+            links = link.getElementsByTagName('a');
+            blueimp.Gallery(links, options);
+        };
+
+    document.getElementById('rsvp-button').onclick = function (event) {
+            event = event || window.event;
+        };
+    });
 </script>
 
 
