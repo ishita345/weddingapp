@@ -398,7 +398,17 @@
         };
 
     document.getElementById('rsvp-button').onclick = function (event) {
-            event = event || window.event;
+            $.ajax({
+            url: '/rsvp',
+            data: $('rsvp-form').serialize(),
+            type: 'POST',
+            success: function(response) {
+                console.log(response);
+            },
+            error: function(error) {
+                console.log(error);
+            }
+        });
         };
     });
 </script>
