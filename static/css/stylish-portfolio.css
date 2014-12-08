@@ -163,7 +163,9 @@ hr.small {
 .events {
     padding: 50px 0;
 }
-
+#gallery-section{
+    padding: 50px 0;
+}
 .event-item {
     margin-bottom: 30px;
 }
