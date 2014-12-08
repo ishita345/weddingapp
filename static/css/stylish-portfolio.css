@@ -287,3 +287,24 @@ footer {
     margin-top: 30px;
 
 }
+
+@media (max-width: 768px) {
+
+    .countdown-show5 .countdown-section {
+        width: 19%;
+        background: white;
+        margin-left: 1px;
+        text-align: center;
+        /*margin-bottom: 50px;*/
+        font-size: 13px;
+        padding: 0px;
+
+    }
+    #gallery-section{
+        padding: 0px;
+    }
+    #countdown{
+        margin-left: 10px;
+    }
+}
+
