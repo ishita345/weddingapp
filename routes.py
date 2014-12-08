@@ -9,7 +9,7 @@ def home():
 @app.route('/rsvp/', methods=['POST'])
 def rsvp():
     print request
-    name = request.form['name']
+    name = request.form.get('name')
     return json.dumps({'status':'OK','name':name});
 
 
