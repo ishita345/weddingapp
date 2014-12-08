@@ -1,3 +1,4 @@
+import json
 from flask import Flask, render_template, request
 
 app = Flask(__name__)
@@ -6,7 +7,7 @@ app = Flask(__name__)
 def home():
 	return render_template('index.html')
 
-@app.route('/rsvp/', methods=['POST'])
+@app.route('/rsvp', methods=['POST'])
 def rsvp():
     print request
     name = request.form.get('name')
