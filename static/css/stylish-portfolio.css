@@ -13,11 +13,15 @@ body {
 }
 
 body {
-    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Papyrus;
 }
 
 h1 {
     font: 400 100px/1.3 'Lobster Two', Helvetica, sans-serif;
+}
+
+h2 {
+    font: 400 50px/1.3 'Great Vibes', Helvetica, sans-serif;
 }
 
 .white {
@@ -96,11 +100,6 @@ hr.small {
     display: table;
     width: 100%;
     height: 400px;
-    background-color: #FFFFFF;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
     text-align: justify;
 }
 
@@ -126,7 +125,7 @@ hr.small {
 }
 
 .countdown-bg {
-    background: url(../img/rsvp-bg.jpeg) no-repeat fixed center center;
+    background: url(../img/countdown.jpg) no-repeat fixed center center;
 }
 
 .box {
@@ -159,18 +158,18 @@ hr.small {
 }
 
 /* Events */
-
 .events {
     padding: 50px 0;
 }
-#gallery-section{
-    padding: 50px 0;
-}
+
 .event-item {
     margin-bottom: 30px;
 }
 
 /* Gallery */
+#gallery-section{
+    padding: 50px 0;
+}
 
 .gallery {
     padding: 0;
@@ -222,7 +221,7 @@ hr.small {
 .insert {
     padding: 50px 0;
     height: 75%;
-    background: url(../img/insert-bg.jpg) no-repeat fixed center center;
+    background: url(../img/insert.jpg) no-repeat fixed center center;
 }
 
 
@@ -232,7 +231,7 @@ hr.small {
 }
 
 .rsvp-bg {
-    background: url(../img/rsvp-bg.jpeg) no-repeat fixed center center;
+    background: url(../img/rsvp.jpg) no-repeat fixed center center;
 }
 
 .rsvp-form {
@@ -257,6 +256,7 @@ hr.small {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
 /* Map */
 
 .map {
