@@ -182,12 +182,12 @@
 
 
 <!-- Gallery section -->
-<section id="gallery-section" class="">
-    <div class="container full-width">
+<section id="gallery-section">
+    <div class="container">
         <div class="section-heading">
             <h2>Image Gallery</h2>
         </div>
-        <div class="container">
+        <div class="gallery-container">
                     <div id="gallery">
                           <div class="thumbnail image  col-xs-6 col-sm-4"
                                  ><a
@@ -225,11 +225,12 @@
                                     data-gallery>
                               <img class="img-gallery img-responsive img-rounded" src="../static/img/DSC_0604.JPG">
                           </a></div>
-                        <div class="col-xs-12" align="center" style="margin: 10px">
+                        <div class="col-xs-12 view-gallery" align="center" style="margin: 10px">
                             <button id="view-gallery-button"
                                     class="btn btn-warning">View Full Gallery
                             </button>
                         </div>
+                        <br><br>
 
                     </div>
         </div>
@@ -279,7 +280,10 @@
     <div class="container">
         <div class="row">
             <div class="rsvp-class col-lg-12">
-                <div class="rsvp-form col-md-5 col-sm-6 col-md-offset-1">
+                <div class="section-heading white">
+                        <h2 >Are You Attending?</h2>
+                </div>
+                <div class="rsvp-form col-md-6 col-sm-6 col-md-offset-3">
                     <form role="form">
                         <div class="form-group">
                             <input type="text" class="form-control" id="form-name" placeholder="Full Name">
@@ -314,14 +318,7 @@
                     <!--    <button data-toggle="modal" data-target="#basicModal" class="btn btn-default btn-block btn-danger">I'M ATTENDING!</button> -->
                     </form>
                 </div>
-                <div class="rsvp-title col-md-5 col-sm-2">
-                    <div class="section-heading white">
-                        <h2 >Are You Attending?</h2>
-                    </div>
-                    <p class="animate white">You can change this text from the widget setting. Eu iusto doctus vulputate duo.
-                        Ei iusto quando usu, elit adhuc facilisi est ei, in his nominavi consequuntur. Congue sadipscing
-                        ne sed. His dolore tempor ad, mandamus definiebas consectetuer sit ex.</p>
-                </div>
+                <br><br><br><br>
             </div>
         </div>
     </div>
@@ -330,11 +327,11 @@
 <div class="modal fade" id="rsvpModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
-            <div class="modal-body">
+            <div class="modal-body text-center">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                 <br>
                 <h3>We're so glad you are attending!</h3>
-                <h4>See you on 22nd January, 2015</h4>
+                <h4>See you on 22nd January, 2015!</h4>
                 <br>
             </div>
         </div>
