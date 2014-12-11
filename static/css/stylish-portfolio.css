@@ -319,6 +319,18 @@ footer {
         margin-left: 10px;
     }
 
+    .insert {
+        background: url(../img/insert_small.jpg) no-repeat fixed center center;
+    }
+
+    .countdown-bg {
+        background: url(../img/countdown_small.jpg) no-repeat fixed center center;
+    }
+
+    .rsvp-bg {
+        background: url(../img/rsvp_small.jpg) no-repeat fixed center center;
+    }
+
     h1 {
         font: 400 50px/1.3 'Great Vibes', Helvetica, sans-serif;
     }
