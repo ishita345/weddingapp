@@ -237,6 +237,7 @@ hr.small {
 
 .rsvp-bg {
     background: url(../img/rsvp.jpg) no-repeat fixed center center;
+    background-size: cover;
 }
 
 .rsvp-form {
