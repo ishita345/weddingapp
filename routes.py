@@ -1,13 +1,13 @@
 import json
 from flask import Flask, render_template, request
 
-app = Flask(__name__)
+weddingapp = Flask(__name__)
 
-@app.route('/')
+@weddingapp.route('/')
 def home():
 	return render_template('index.html')
 
-@app.route('/rsvp/', methods=['POST'])
+@weddingapp.route('/rsvp/', methods=['POST'])
 def rsvp():
     print request
     name = request.form.get('name')
@@ -15,4 +15,4 @@ def rsvp():
 
 
 if __name__ == '__main__':
-	app.run(host='127.0.0.1', debug=True)
+	weddingapp.run(host='127.0.0.1', debug=True)
