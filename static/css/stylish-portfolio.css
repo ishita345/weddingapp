@@ -320,15 +320,15 @@ footer {
     }
 
     .insert {
-        background: url(../img/insert_small.jpg) no-repeat fixed center center;
+        background: url(../img/insert_small.jpeg) no-repeat fixed center center;
     }
 
     .countdown-bg {
-        background: url(../img/countdown_small.jpg) no-repeat fixed center center;
+        background: url(../img/countdown_small.jpeg) no-repeat fixed center center;
     }
 
     .rsvp-bg {
-        background: url(../img/rsvp_small.jpg) no-repeat fixed center center;
+        background: url(../img/rsvp_small.jpeg) no-repeat fixed center center;
     }
 
     h1 {
