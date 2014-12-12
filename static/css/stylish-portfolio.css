@@ -168,7 +168,8 @@ hr.small {
 
 /* Gallery */
 #gallery-section{
-    padding: 50px 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .gallery {
@@ -184,7 +185,7 @@ hr.small {
 }
 
 .view-gallery{
-    padding-bottom: 15px;
+    padding: 20px;
 }
 
 .gallery-item-container {
@@ -274,11 +275,6 @@ hr.small {
     padding: 20px 20px 20px 20px;
 }
 
-@media(max-width:768px) {
-    .map {
-        height: 75%;
-    }
-}
 
 /* Footer */
 
@@ -312,9 +308,12 @@ footer {
         padding: 0px;
 
     }
+
     #gallery-section{
-        padding: 0px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
+
     #countdown{
         margin-left: 10px;
     }
@@ -344,5 +343,15 @@ footer {
         font-size: 13px;
     }
 
+    .thumbnail {
+        border: none;
+        box-shadow: none;
+        margin-bottom: 0px;
+        padding: 3px;
+    }
+
+    .map {
+        height: 75%;
+    }
 }
 
