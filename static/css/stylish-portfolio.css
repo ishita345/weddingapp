@@ -126,6 +126,7 @@ hr.small {
 
 .countdown-bg {
     background: url(../img/countdown.jpg) no-repeat fixed center center;
+    background-size: cover;
 }
 
 .box {
@@ -228,6 +229,7 @@ hr.small {
     padding: 50px 0;
     height: 75%;
     background: url(../img/insert.jpg) no-repeat fixed center center;
+    background-size: cover;
 }
 
 
@@ -238,6 +240,7 @@ hr.small {
 
 .rsvp-bg {
     background: url(../img/rsvp.jpg) no-repeat fixed center center;
+    background-size: cover;
 }
 
 .rsvp-form {
