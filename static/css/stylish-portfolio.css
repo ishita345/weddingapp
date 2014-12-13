@@ -354,6 +354,13 @@ footer {
         padding: 3px;
     }
 
+    .text-vertical-center h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 3em;
+        font-weight: 700;
+    }
+
     .map {
         height: 75%;
     }
