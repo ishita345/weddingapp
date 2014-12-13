@@ -13,7 +13,7 @@ body {
 }
 
 body {
-    font-family: Papyrus;
+    font: 400 20px/1.3 'Flamenco';
 }
 
 h1 {
@@ -322,15 +322,21 @@ footer {
     }
 
     .insert {
-        background: url(../img/insert_small.jpeg) no-repeat fixed center center;
+        background: url(../img/insert_small.jpeg) no-repeat center center;
+        background-position: scroll;
+        background-size: cover;
     }
 
     .countdown-bg {
-        background: url(../img/countdown_small.jpeg) no-repeat fixed center center;
+        background: url(../img/countdown_small.jpeg) no-repeat center center;
+        background-position: scroll;
+        background-size: cover;
     }
 
     .rsvp-bg {
-        background: url(../img/rsvp_small.jpeg) no-repeat fixed center center;
+        background: url(../img/rsvp_small.jpeg) no-repeat center center;
+        background-position: scroll;
+        background-size: cover;
     }
 
     h1 {
@@ -339,11 +345,6 @@ footer {
 
     h2 {
         font: 400 40px/1.3 'Great Vibes', Helvetica, sans-serif;
-    }
-
-    h5 {
-        font-family: Papyrus;
-        font-size: 13px;
     }
 
     .thumbnail {
