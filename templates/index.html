@@ -116,6 +116,9 @@
                 <div class="section-heading">
                     <h2>The Events</h2>
                 </div>
+                <div class="event-invite">
+                    <h4>Mr. & Mrs. Chandresh Shah and Mr. & Mrs. Anil Shah request the honor of your presence at this auspicious ocassion</h4>
+                </div>
                 <div class="row">
                     <div class="col-md-4 col-sm-6 col-md-offset-1 col-sm-offset=3">
                         <div class="event-item">
@@ -295,15 +298,15 @@
                         <h2 >Are You Attending?</h2>
                 </div>
                 <div class="rsvp-form col-md-6 col-sm-6 col-md-offset-3">
-                    <form role="form">
+                    <form role="form" id="rsvpform" name="rsvpform">
                         <div class="form-group">
-                            <input type="text" class="form-control" id="form-name" placeholder="Full Name">
+                            <input type="text" class="form-control" id="form-name" name="name" placeholder="Full Name">
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control" id="form-email" placeholder="Email">
+                            <input type="email" class="form-control" id="form-email" name="email" placeholder="Email">
                         </div>
                         <div class="form-group">
-                            <select class="form-control">
+                            <select class="form-control" name="people">
                                 <option value selected>Number of Persons Attending</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
@@ -318,7 +321,7 @@
                             </select>
                         </div>
                         <div class="form-group">
-                            <select class="form-control">
+                            <select class="form-control" name="event">
                                 <option value="wedding" selected>Wedding Ceremony</option>
                                 <option value="reception">Reception Party</option>
                                 <option value="both">Both</option>
@@ -400,8 +403,8 @@
 
     document.getElementById('rsvp-button').onclick = function (event) {
             $.ajax({
-            url: '/rsvp/',
-            data: $('rsvp-form').serialize(),
+            url: '/rsvp',
+            data: $('#rsvpform').serialize(),
             type: 'POST',
             success: function(response) {
                 console.log(response);
